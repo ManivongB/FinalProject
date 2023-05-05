@@ -19,7 +19,7 @@ public class DefaultProductOrderDao implements ProductOrdersDao {
   public List<ProductOrders> fetchProductOrders() {
     // @formatter:off
     String sql = ""
-        + "SELECT * FROM coffee_orders";
+        + "SELECT * FROM product_orders";
     //@formatter:on
    
     return jdbcTemplate.query(sql, new RowMapper<ProductOrders>() {
