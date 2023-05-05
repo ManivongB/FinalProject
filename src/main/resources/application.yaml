@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    password: gamestore
+    username: gamestore
+    url: jdbc:mysql://localhost:3306/gamestore
+    
